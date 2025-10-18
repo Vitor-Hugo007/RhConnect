@@ -1,0 +1,23 @@
+{
+  "administradores": [
+    {
+      "id": "1",
+      "nomeUsuario": "Jacinto Pinto",
+      "email": "jacintopinto123@gmail.com",
+      "senha": "123456",
+      "tipo": "admin",
+      "imagemUrl": "none"
+    }
+  ],
+
+  "funcionarios": [
+    {
+      "id": "1",
+      "nomeUsuario": "Maria",
+      "email": "maria123@gmail.com",
+      "senha": "654321",
+      "tipo": "funcionario",
+      "imagemUrl": "none"
+    }
+  ]
+}
