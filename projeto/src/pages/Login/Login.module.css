@@ -1,96 +1,57 @@
 .pagelogin {
-  background-color: #5dade2;
+  background-color: #442725; /* fundo principal */
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* padding: 2rem; */
 }
 
-/* DAQUI PARA BAIXO FOI TUDO ACRESCENTADO */
-
-/* Tornar a imagem responsiva e moderna */
-.pagelogin img {
-  max-width: 100%;
+/* Logo (lado esquerdo) */
+.logo {
+  max-width: 420px;
+  width: 100%;
   height: auto;
   object-fit: contain;
-}
-
-/* Ajustar o form para responsividade e centralização */
-form {
-  background-color: #273746;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-  color: #ecf0f1;
-}
-
-/* Inputs com visual clean */
-form .form-control {
-  background-color: #1c2833;
-  color: #ecf0f1;
-  border: 1px solid #34495e;
-}
-
-form .form-control:focus {
-  background-color: #1c2833;
-  color: #ecf0f1;
-  border-color: #5dade2;
-  box-shadow: 0 0 0 0.2rem rgba(93, 173, 226, 0.25);
-}
-
-/* Floating labels */
-form .form-floating > label {
-  color: #aab7b8;
-}
-
-/* Botão com estilo flat */
-form .btn {
-  background-color: #5dade2;
-  border: none;
-  transition: background-color 0.3s ease;
-  font-weight: 500;
-  letter-spacing: 1px;
-}
-
-form .btn:hover {
-  background-color: #3498db;
-}
-
-/* Alerta */
-.alert {
-  font-size: 0.9rem;
-  padding: 0.75rem;
   border-radius: 8px;
+}
+
+/* Caixa de login */
+.formulario {
+  background-color: #5b362f;
+  padding: 40px 60px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   text-align: center;
+  width: 100%;
+  max-width: 420px;
 }
 
-/* Estilo das mensagens de erro */
-.error {
-  color: #e74c3c;
-  font-size: 0.85rem;
-  margin-top: 0.25rem;
-  text-align: left;
-}
-
-/* Responsividade */
-@media (max-width: 768px) {
-  .pagelogin img {
-    max-width: 300px;
-    margin-bottom: 2rem;
-  }
-
-  form {
-    width: 100% !important;
-    padding: 1.5rem;
-  }
-
-}
-
+/* Título */
 .tituloLogin {
-  color: #ecf0f1;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  font-weight: 500;
+  color: #e4caa5;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
   letter-spacing: 1px;
+}
+
+/* Botão */
+.botaoLogin {
+  background-color: #68bca1 !important;
+  border: none !important;
+  color: #442725 !important;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.botaoLogin:hover {
+  background-color: #559a87 !important;
+  color: #fff !important;
+}
+
+/* Erros */
+.error {
+  color: #e4caa5;
+  font-size: 0.9rem;
+  margin-top: 5px;
 }
